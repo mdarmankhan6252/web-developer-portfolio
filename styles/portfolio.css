@@ -1,4 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@400;500;600&family=Kaushan+Script&family=Open+Sans:wght@400;500;800&family=Oswald:wght@200;300;400;500;600;700&family=Poppins:wght@200;300;400;500&family=Quicksand:wght@300;400;500;600&family=Raleway:ital,wght@0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400;1,500&family=Red+Hat+Display:ital,wght@0,700;0,800;1,600;1,800&display=swap');
 *{
    margin: 0;
    padding: 0;
+   font-family: 'Open Sans', sans-serif;
+}
+nav{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+nav > ul{
+   display: flex;
+
+
+}
+nav ul li{
+   list-style: none;
+   margin-left: 50px;
+}
+nav ul li a{
+   text-decoration: none;
+   color: #181818;
+   
+}
+.btn{
+   border: none;
+   background-color: #FD6E0A;
+   color: #fff;
+
+   padding: 10px 20px;
+
+}
+.main-color{
+   color: #FD6E0A;
+}
+.nav-title{
+   font-size: 45px;
+   font-weight: 800;
+   color: #181818;
+
 }
