@@ -220,3 +220,40 @@ hr{
    transform: translate(-50%);
    margin: 70px 0;
 }
+
+/* -----------footer------------ */
+
+footer{
+   background-color: #FFF8F3;
+   padding: 100px 0;
+}
+.footer-row{
+   width: 80%;
+   margin: auto;
+   align-items: normal;
+}
+.footer-col{
+   flex-basis: 44%;
+}
+.footer-col h2{
+   color: #181818;
+   font-size: 26px;
+}
+.footer-col p{
+   color: #757575;
+   font-size: 15px;
+   padding: 20px 0;
+}
+.footer-col form input, textarea{
+   width: 100%;
+   padding: 8px;
+   font-size: 17px;
+   margin: 15px 0;
+   outline: none;
+   border: 1px solid #ddd;
+   border-radius: 2px;
+   
+}
+.social-icons img{
+   margin-right: 15px;
+}
