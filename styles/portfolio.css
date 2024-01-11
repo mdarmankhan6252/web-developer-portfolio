@@ -29,6 +29,7 @@ nav{
 }
 nav > ul{
    display: flex;
+   align-items: center;
 }
 nav ul li{
    list-style: none;
@@ -261,4 +262,63 @@ footer{
 }
 .social-icons img{
    margin-right: 15px;
+}
+
+/* -----------media-------- */
+
+@media screen and (max-width:576px) {
+   main{
+      width: 95%;
+   }
+   .about-me{
+      padding: 100px 10px;
+      padding: 10px;
+   }
+   .links{
+      flex-direction: column;
+   }
+   .links h5{
+      padding-bottom: 25px;
+   }
+   .title-text{
+      width: 90%;
+   }
+   .row{
+      flex-direction: column;
+   }
+   .footer-row{
+      width: 95%;
+      flex-direction: column-reverse;
+
+   }
+   .footer-col-1{
+      text-align: right;
+   }
+   .resume-2{
+      text-align: right;
+   }
+   .side-image{
+      display: none;
+   }
+   nav{
+      padding: 10px 5%;
+   }
+   .nav-title{
+      font-size: 28px;
+      padding: 0;
+   }
+   .user-profile{
+      display: none;
+   }
+   .banner{
+      padding: 50px 20px;
+   }
+   .banner h3{
+      font-size: 22px;
+   }
+   .banner h1{
+      font-size: 40px;
+   }
+
+   
 }
